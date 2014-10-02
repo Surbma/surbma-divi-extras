@@ -3,7 +3,7 @@
 /*
 Plugin Name: Surbma - Divi extrák
 Description: Extra módosítások a Divi sablonhoz
-Version: 1.0.0
+Version: 1.1.0
 Author: Surbma
 Author URI: http://surbma.hu/
 License: GPL2
