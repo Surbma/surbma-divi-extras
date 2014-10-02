@@ -17,6 +17,10 @@ h6 {
 	padding: 0;
 }
 
+.et_pb_widget {
+    width: 100%;
+}
+
 #main-footer {
 	overflow: hidden;
 }
