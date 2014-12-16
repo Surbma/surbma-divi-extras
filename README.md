@@ -1,4 +1,4 @@
 Surbma - Divi extras
 ==================
 
-Extra módosítások a Divi sablonhoz
+Useful modifications for the Divi Theme
