@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi Extras
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 2.1.0
+Version: 2.1.1
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -24,7 +24,7 @@ add_action( 'init', 'surbma_divi_extras_init' );
 
 // Enqueue the css file
 function surbma_divi_extras_enqueue_scripts() {
-	wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '2.1.0' );
+	wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '2.1.1' );
 }
 add_action( 'wp_enqueue_scripts', 'surbma_divi_extras_enqueue_scripts', 9999 );
 
