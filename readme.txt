@@ -1,14 +1,14 @@
-=== Surbma - Divi extras ===
+=== Surbma - Divi Extras ===
 Contributors: Surbma
 Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Useful modifications for the Divi Theme
+Useful modifications for the Divi Theme.
 
 == Description ==
 
@@ -19,7 +19,7 @@ You have to buy the Divi Theme first: <a href="http://surbma.com/go/eleganttheme
 == Installation ==
 
 1. Upload the `surbma-divi-extras` folder to the `/wp-content/plugins/` directory.
-1. Activate the Surbma - Divi extras plugin through the 'Plugins' menu in WordPress.
+1. Activate the Surbma - Divi Extras plugin through the 'Plugins' menu in WordPress.
 1. That's it.
 
 == Frequently Asked Questions ==
@@ -29,6 +29,12 @@ You have to buy the Divi Theme first: <a href="http://surbma.com/go/eleganttheme
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.1.0 =
+
+- Fixed typo.
+- Added pot file.
+- Added hungarian translation.
 
 = 2.0.0 =
 

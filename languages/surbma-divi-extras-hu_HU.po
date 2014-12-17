@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Surbma - Divi Extras v2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-12-17 00:01:14+0000\n"
+"Last-Translator: surbma <peter@surbma.hu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: surbma-divi-extras.php:0
+#@ surbma-divi-extras
+msgid "Surbma - Divi Extras"
+msgstr "Surbma - Divi extrák"
+
+#. translators: plugin header field 'PluginURI'
+#: surbma-divi-extras.php:0
+#@ surbma-divi-extras
+msgid "http://surbma.com/wordpress-plugins/"
+msgstr "http://surbma.hu/wordpress-bovitmenyek/"
+
+#. translators: plugin header field 'Description'
+#: surbma-divi-extras.php:0
+#@ surbma-divi-extras
+msgid "Useful modifications for the Divi Theme."
+msgstr "Hasznos módosítások a Divi sablonhoz."
+
+#. translators: plugin header field 'Author'
+#: surbma-divi-extras.php:0
+#@ surbma-divi-extras
+msgid "Surbma"
+msgstr "Surbma"
+
+#. translators: plugin header field 'AuthorURI'
+#: surbma-divi-extras.php:0
+#@ surbma-divi-extras
+msgid "http://surbma.com/"
+msgstr "http://surbma.hu/"
+
+#. translators: plugin header field 'Version'
+#: surbma-divi-extras.php:0
+#@ surbma-divi-extras
+msgid "2.0.1"
+msgstr ""
+
