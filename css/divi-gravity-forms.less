@@ -15,7 +15,8 @@ body .gform_wrapper ul.gform_fields {
 	padding: 0 !important;
 }
 
-body .gform_wrapper .gform_footer {
+body .gform_wrapper .gform_footer,
+body .gform_wrapper .gform_page_footer {
 	overflow: hidden;
 }
 
@@ -102,6 +103,14 @@ body .gform_wrapper input[type=submit]:hover {
 	cursor: pointer;
 }
 
+body .gform_wrapper .gform_fileupload_multifile input[type=button] {
+	float: none;
+	display: inline;
+	font-size: 14px;
+	margin-left: 5px;
+	padding: 0 10px;
+}
+
 body .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
 	margin-top: 0;
 	margin-bottom: 0 !important;
@@ -143,6 +152,10 @@ body .gform_wrapper .top_label li.gfield.gfield_error.gf_left_third,
 body .gform_wrapper .top_label li.gfield.gfield_error.gf_middle_third,
 body .gform_wrapper .top_label li.gfield.gfield_error.gf_right_third {
 	width: 32%;
+}
+
+body .gform_wrapper .gf_progressbar_wrapper {
+	width: 100%;
 }
 
 body .gform_wrapper .gf_progressbar {

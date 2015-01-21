@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms, uikit
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,11 @@ You have to buy the Divi Theme first: <a href="http://surbma.com/go/eleganttheme
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.2.2 =
+
+- Gravity Forms Multi-File Upload field's button fix. ([Requested by Tevya](https://wordpress.org/support/topic/next-button-isnt-styled-on-multi-page-forms))
+- Some minor fix for Gravity Forms.
 
 = 2.2.1 =
 

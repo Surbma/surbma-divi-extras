@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi Extras
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 2.2.1
+Version: 2.2.2
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -27,7 +27,7 @@ function surbma_divi_extras_enqueue_scripts() {
 	wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '2.1.1' );
 
 	$accent_color = esc_html( et_get_option( 'accent_color', '#2EA3F2' ) );
-	$custom_css = "body .gform_wrapper input[type=button],body .gform_wrapper input[type=submit]{color: {$accent_color};border-color: {$accent_color};}";
+	$custom_css = "body .gform_wrapper .gform_footer .button,body .gform_wrapper .gform_page_footer .button{color: {$accent_color};border-color: {$accent_color};}";
 	wp_add_inline_style( 'surbma-divi-extra-styles', $custom_css );
 }
 add_action( 'wp_enqueue_scripts', 'surbma_divi_extras_enqueue_scripts', 9999 );
