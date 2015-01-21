@@ -10,6 +10,11 @@ body .gform_wrapper {
 	padding-bottom: 30px;
 }
 
+body .gform_wrapper ul.gform_fields {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 body .gform_wrapper .gform_footer {
 	overflow: hidden;
 }
@@ -60,16 +65,17 @@ body .gform_wrapper .top_label input.medium {
 	padding-right: 16px;
 }
 
+body .gform_wrapper input[type=button],
 body .gform_wrapper input[type=submit] {
 	font-size: 20px;
 	font-weight: 500;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	padding: 6px 20px;
 	line-height: 1.7em;
 	background: transparent;
 	border: 2px solid;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-moz-transition: all 0.2s;
@@ -77,15 +83,23 @@ body .gform_wrapper input[type=submit] {
 	transition: all 0.2s;
 	font-family: inherit;
 	display: block;
-	float: right;
 	margin: 8px 1.5% 0 0;
-	cursor: pointer;
 	color: inherit;
 }
 
+body .gform_wrapper input[type=button] {
+	float: left;
+}
+
+body .gform_wrapper input[type=submit] {
+	float: right;
+}
+
+body .gform_wrapper input[type=button]:hover,
 body .gform_wrapper input[type=submit]:hover {
 	background: rgba( 0, 0, 0, 0.05 );
 	border: 2px solid transparent;
+	cursor: pointer;
 }
 
 body .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
@@ -129,5 +143,27 @@ body .gform_wrapper .top_label li.gfield.gfield_error.gf_left_third,
 body .gform_wrapper .top_label li.gfield.gfield_error.gf_middle_third,
 body .gform_wrapper .top_label li.gfield.gfield_error.gf_right_third {
 	width: 32%;
+}
+
+body .gform_wrapper .gf_progressbar {
+	width: 100%;
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none; 
+	box-shadow: none; 
+}
+
+body .gform_wrapper .gf_progressbar,
+body .gform_wrapper .percentbar_blue {
+	background-size: contain;
+	height: 40px;
+}
+
+body .gform_wrapper .gf_progressbar_percentage {
+	font-family: inherit;
+}
+
+body .gform_wrapper .gf_progressbar_percentage span {
+	margin-top: 10px;
 }
 

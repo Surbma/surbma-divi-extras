@@ -14,6 +14,12 @@ Useful modifications for the Divi Theme.
 
 This plugin fixes and add some useful modifications to the Divi Theme by Elegant Themes. It also add the same styling for Gravity Forms as it has its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
 
+Divi Extras features:
+
+- Gravity Forms styling.
+- UIkit styling.
+- Hide comment allowed tags block.
+
 You have to buy the Divi Theme first: <a href="http://surbma.com/go/elegantthemes/" target="_blank">Divi by Elegant Themes</a> (affiliate link)
 
 == Installation ==
@@ -29,6 +35,12 @@ You have to buy the Divi Theme first: <a href="http://surbma.com/go/eleganttheme
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.2.0 =
+
+- Added Divi styling to Gravity Forms multi-page next/previos buttons.
+- Gravity Forms multi-page next/previos buttons inherit the Divi Accent color option.
+- Gravity Forms multi-page progress bar modification to match Divi styles.
 
 = 2.1.1 =
 
