@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms, uikit
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 2.1.1
+Stable tag: 2.2.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Useful modifications for the Divi Theme.
 
 This plugin fixes and add some useful modifications to the Divi Theme by Elegant Themes. It also add the same styling for Gravity Forms as it has its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
 
-Divi Extras features:
+Surbma - Divi Extras plugin features:
 
 - Gravity Forms styling.
 - UIkit styling.
@@ -36,11 +36,17 @@ It is the reverse version of my last name. ;)
 
 == Changelog ==
 
+= 2.2.1 =
+
+- Fixed stable tag.
+
 = 2.2.0 =
 
-- Added Divi styling to Gravity Forms multi-page next/previos buttons.
-- Gravity Forms multi-page next/previos buttons inherit the Divi Accent color option.
-- Gravity Forms multi-page progress bar modification to match Divi styles.
+- Added Divi styling to Gravity Forms multi-page next/previos buttons. ([Requested by Tevya](https://wordpress.org/support/topic/next-button-isnt-styled-on-multi-page-forms))
+- Gravity Forms multi-page next/previos buttons inherit the Divi Accent color option. ([Requested by Tevya](https://wordpress.org/support/topic/next-button-isnt-styled-on-multi-page-forms))
+- Gravity Forms multi-page progress bar modification to match Divi styles. ([Requested by Tevya](https://wordpress.org/support/topic/next-button-isnt-styled-on-multi-page-forms))
+- Comment submit button gets pointer cursor on hover. ([Requested by Tevya](https://wordpress.org/support/topic/a-few-feature-requests-4))
+- Some minor improvements in the css.
 
 = 2.1.1 =
 
