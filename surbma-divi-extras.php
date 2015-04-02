@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi Extras
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 2.2.3
+Version: 2.2.4
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -18,9 +18,9 @@ Domain Path: /languages/
 
 // Localization
 function surbma_divi_extras_init() {
-	load_plugin_textdomain( 'surbma-divi-extras', false, dirname( plugin_basename( __FILE__ ) . '/languages/' ) );
+	load_plugin_textdomain( 'surbma-divi-extras', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
-add_action( 'init', 'surbma_divi_extras_init' );
+add_action( 'plugins_loaded', 'surbma_divi_extras_init' );
 
 // Enqueue the css file
 function surbma_divi_extras_enqueue_scripts() {
