@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 2.3.1
+Stable tag: 2.3.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,11 +24,9 @@ Surbma - Divi Extras plugin features:
 = Extra classes for Page Builder Sections =
 
 **small-space**
-
 If you add this class to a Section's CSS Class field, the top and bottom padding will be reduced to 20 px.
 
 **no-space**
-
 If you add this class to a Section's CSS Class field, the top and bottom padding will be reduced to 0 px.
 
 You have to buy the Divi Theme to use this plugin:
@@ -72,6 +70,11 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.3.2 =
+
+- Fixes in description.
+- Added separate less file for Page Builder Section styles.
 
 = 2.3.1 =
 
