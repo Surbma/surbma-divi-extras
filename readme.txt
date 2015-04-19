@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 2.3.0
+Stable tag: 2.3.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ Surbma - Divi Extras plugin features:
 - Adds extra classes for Page Builder Sections: small-space, no-space
 - Hide comment allowed tags block.
 
-=== Extra classes for Page Builder Sections ===
+= Extra classes for Page Builder Sections =
 
 **small-space**
 
@@ -45,6 +45,20 @@ You have to buy the Divi Theme to use this plugin:
 
 - [Divi Extra](https://github.com/Surbma/Divi-Extra)
 
+**Do you want to contribute or help improving this plugin?**
+
+You can find it on GitHub: [https://github.com/Surbma/surbma-divi-extras](https://github.com/Surbma/surbma-divi-extras)
+
+**You can find my other plugins and projects on GitHub:**
+
+[https://github.com/Surbma](https://github.com/Surbma)
+
+Please feel free to contribute, help or recommend any new features for my plugins, themes and other projects.
+
+**Do you want to know more about me?**
+
+Visit my webpage: [Surbma.com](http://surbma.com/)
+
 == Installation ==
 
 1. Upload the `surbma-divi-extras` folder to the `/wp-content/plugins/` directory.
@@ -58,6 +72,10 @@ You have to buy the Divi Theme to use this plugin:
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.3.1 =
+
+- Fixes in description.
 
 = 2.3.0 =
 
