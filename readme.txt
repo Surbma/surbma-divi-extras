@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 2.3.2
+Stable tag: 2.4.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,7 @@ Surbma - Divi Extras plugin features:
 - Removes ugly list icons in the footer.
 - Adds extra classes for Page Builder Sections: small-space, no-space
 - Hide comment allowed tags block.
+- Featured menu style, as seen here in the menu: [Monarch plugin demo](http://elegantthemes.com/preview/Monarch/)
 
 = Extra classes for Page Builder Sections =
 
@@ -28,6 +29,11 @@ If you add this class to a Section's CSS Class field, the top and bottom padding
 
 **no-space**
 If you add this class to a Section's CSS Class field, the top and bottom padding will be reduced to 0 px.
+
+= Extra classes for the Menu items =
+
+**featured-menu**
+If you want to have a menu item with a colored background, that really shines in your menu bar, just add this class to your menu item.
 
 You have to buy the Divi Theme to use this plugin:
 
@@ -70,6 +76,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.4.0 =
+
+- Added featured menu style, as seen here in the menu: [Monarch plugin demo](http://elegantthemes.com/preview/Monarch/)
 
 = 2.3.2 =
 
