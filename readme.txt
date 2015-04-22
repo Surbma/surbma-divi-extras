@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,7 +33,7 @@ If you add this class to a Section's CSS Class field, the top and bottom padding
 = Extra classes for the Menu items =
 
 **featured-menu**
-If you want to have a menu item with a colored background, that really shines in your menu bar, just add this class to your menu item.
+If you want to have a menu item with a colored background, that really shines in your menu bar, just add this class to your menu item. The best part of it is, that the background color will be the same, what you have set as the Accent Color in the Customizer. Wow!
 
 You have to buy the Divi Theme to use this plugin:
 
@@ -76,6 +76,11 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.5.0 =
+
+- Featured menu's background color inherits Divi's Accent Color setting.
+- Plugin's css file is loading only, if Divi theme is the parent theme.
 
 = 2.4.0 =
 
