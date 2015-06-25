@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi Extras
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 3.0.2
+Version: 3.0.3
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -30,12 +30,19 @@ add_action( 'plugins_loaded', 'surbma_divi_extras_init' );
 // Enqueue the css file
 function surbma_divi_extras_enqueue_scripts() {
 	if ( wp_basename( get_bloginfo( 'template_directory' ) ) == 'Divi' ) {
-		wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '3.0.2' );
+		wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '3.0.3' );
 
-		$accent_color = esc_html( et_get_option( 'accent_color' ) );
-		$menu_padding = esc_html( ceil( et_get_option( 'menu_height' ) / 2 ) - 15 );
+		$accent_color = '#2ea3f2';
+		if ( et_get_option( 'accent_color' ) != '' )
+			$accent_color = esc_html( et_get_option( 'accent_color' ) );
+
+		$menu_padding = 18;
+		if ( et_get_option( 'menu_height' ) != '' )
+			$menu_padding = esc_html( ceil( et_get_option( 'menu_height' ) / 2 ) - 15 );
+
 		$custom_css = "#top-menu .featured-menu a,#top-menu .featured-menu a:hover{background-color:{$accent_color};}";
 		$custom_css .= "@media only screen and (min-width: 981px){body.et_header_style_left #et-top-navigation{padding-top:{$menu_padding}px;}}";
+
 		wp_add_inline_style( 'surbma-divi-extra-styles', $custom_css );
 	}
 }
