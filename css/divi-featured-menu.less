@@ -5,25 +5,21 @@
 	transition: all 0.4s ease-in-out;
 }
 
-#top-menu .featured-menu > a {
+#main-header #top-menu .featured-menu > a {
 	font-weight: 700;
 	color: rgba( 255, 255, 255, .8 ) !important;
 	text-align: center;
 	transition: all .3s;
 	-moz-transition: all .3s;
 	-webkit-transition: all .3s;
-
-	&:hover {
-		color: #fff !important;
-	}
 }
 
-#top-menu li.current-menu-item.featured-menu > a,
-.et-fixed-header #top-menu li.current-menu-item.featured-menu > a {
+#main-header #top-menu .featured-menu > a:hover,
+#main-header #top-menu li.current-menu-item.featured-menu > a {
 	color: #fff !important;
 }
 
-@media only screen and (min-width: 981px) {
+@media only screen and ( min-width: 981px ) {
 
 	#top-menu .featured-menu a {
 		padding: 15px !important;

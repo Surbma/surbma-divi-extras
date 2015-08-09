@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi Extras
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 3.0.4
+Version: 3.0.5
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -30,7 +30,7 @@ add_action( 'plugins_loaded', 'surbma_divi_extras_init' );
 // Enqueue the css file
 function surbma_divi_extras_enqueue_scripts() {
 	if ( wp_basename( get_bloginfo( 'template_directory' ) ) == 'Divi' ) {
-		wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '3.0.4' );
+		wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '3.0.5' );
 
 		$accent_color = '#2ea3f2';
 		if ( et_get_option( 'accent_color' ) != '' )
@@ -54,4 +54,3 @@ function surbma_divi_extras_remove_comment_form_allowed_tags( $defaults ) {
 	return $defaults;
 }
 add_filter( 'comment_form_defaults', 'surbma_divi_extras_remove_comment_form_allowed_tags' );
-
