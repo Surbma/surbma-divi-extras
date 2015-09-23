@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
 Tested up to: 4.3
-Stable tag: 3.0.6
+Stable tag: 3.1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,9 +16,10 @@ This plugin fixes and adds some useful modifications to the Divi Theme by Elegan
 
 Surbma - Divi Extras plugin features:
 
+- Featured menu style, as seen here in the menu: [Monarch plugin demo](http://elegantthemes.com/preview/Monarch/)
+- Logo width fix for mobile view. If you don't use the search function, the logo will be bigger, as it has more space in the header.
 - Removes ugly list icons in the footer.
 - Hide comment allowed tags block.
-- Featured menu style, as seen here in the menu: [Monarch plugin demo](http://elegantthemes.com/preview/Monarch/)
 
 = Extra classes for the Menu items =
 
@@ -66,6 +67,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 3.1.0 =
+
+- Logo width fix for mobile view. If you don't use the search function, the logo will be bigger, as it has more space in the header.
 
 = 3.0.6 =
 
