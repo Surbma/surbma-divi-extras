@@ -3,8 +3,8 @@ Contributors: Surbma
 Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
-Tested up to: 4.2
-Stable tag: 3.0.5
+Tested up to: 4.3
+Stable tag: 3.0.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,13 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 3.0.6 =
+
+- Featured menu item position fix, if there are no other menu items.
+- Featured menu item styling in mobile menu also.
+- Compatibility check with WordPress 4.3 version.
+- Compatibility check with Divi 2.5 version.
 
 = 3.0.5 =
 
