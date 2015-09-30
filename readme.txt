@@ -68,6 +68,10 @@ It is the reverse version of my last name. ;)
 
 == Changelog ==
 
+= 3.1.2 =
+
+- Fixed the Fixed navigation menu height option.
+
 = 3.1.1 =
 
 - Fixed navigation if it has more menu items, still stays in one line.
