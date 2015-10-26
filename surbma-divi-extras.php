@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi Extras
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 3.1.4
+Version: 3.1.5
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -17,18 +17,18 @@ Domain Path: /languages/
 */
 
 // Prevent direct access to the plugin
-if ( !defined( 'ABSPATH' ) ) die( 'Good try! :)' );
+if ( !defined( 'ABSPATH' ) ) exit( 'Good try! :)' );
 
 // Localization
 function surbma_divi_extras_init() {
-	load_plugin_textdomain( 'surbma-divi-extras', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( 'surbma-divi-extras', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
 }
 add_action( 'plugins_loaded', 'surbma_divi_extras_init' );
 
 // Enqueue the css file
 function surbma_divi_extras_enqueue_scripts() {
 	if ( wp_basename( get_bloginfo( 'template_directory' ) ) == 'Divi' ) {
-		wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '3.1.4' );
+		wp_enqueue_style( 'surbma-divi-extra-styles', plugins_url( '', __FILE__ ) . '/css/surbma-divi-extras.css', false, '3.1.5' );
 
 		$accent_color = esc_attr( et_get_option( 'accent_color', '#2ea3f2' ) );
 		$menu_spacing = esc_attr( ceil( et_get_option( 'menu_height', '66' ) / 2 ) - 15 );
