@@ -1,10 +1,10 @@
 === Surbma - Divi Extras ===
 Contributors: Surbma
-Donate link: http://surbma.com/wordpress-plugins/
+Donate link: https://surbma.com/donate/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
-Tested up to: 4.3
-Stable tag: 3.2.0
+Tested up to: 4.7
+Stable tag: 3.2.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,8 +14,7 @@ Useful modifications for the Divi Theme.
 
 This plugin fixes and adds some useful modifications to the Divi Theme by Elegant Themes. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
 
-Surbma - Divi Extras plugin features:
-
+**Surbma - Divi Extras plugin features:**
 - Featured menu style, as seen here in the menu: [Monarch plugin demo](http://elegantthemes.com/preview/Monarch/)
 - Logo width fix for mobile view. If you don't use the search function, the logo will be bigger, as it has more space in the header.
 - Removes ugly list icons in the footer.
@@ -23,8 +22,13 @@ Surbma - Divi Extras plugin features:
 
 = Extra classes for the Menu items =
 
-**featured-menu**
-If you want to have a menu item with a colored background, that really shines in your menu bar, just add this class to your menu item. The best part of it is, that the background color will be the same, what you have set as the Accent Color in the Customizer. Wow!
+**Featured menu**
+
+If you want to have a menu item with a colored background, that really shines in your menu bar, just add the `featured-menu` class to your menu item. The best part of it is, that the background color will be the same, what you have set as the Accent Color in the Customizer. Wow!
+
+Once you install and activate the plugin, go to Appearance > Menu and expand the "Screen Options" drop down menu in the upper right corner. Select "CSS Classes" and finally, add `featured-menu` in the class field and you're good to go!
+
+= This plugin is a Divi extension =
 
 You have to buy the Divi Theme to use this plugin:
 
@@ -35,10 +39,12 @@ You have to buy the Divi Theme to use this plugin:
 - [Surbma - Divi & Gravity Forms](https://wordpress.org/plugins/surbma-divi-gravity-forms/)
 - [Surbma - Divi Project Shortcodes](https://wordpress.org/plugins/surbma-divi-project-shortcodes/)
 - [Surbma - Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
+- [Surbma - Divi Remove Project CPT](https://wordpress.org/plugins/surbma-divi-remove-project-cpt/)
+- [Surbma - Divi Lightbox](https://wordpress.org/plugins/surbma-divi-lightbox/)
 
 **My childthemes for Divi theme:**
 
-- [Divi Extra](https://github.com/Surbma/Divi-Extra)
+- [Divi Extra](https://github.com/Surbma/Divi-Plus)
 
 **Do you want to contribute or help improving this plugin?**
 
@@ -67,6 +73,11 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 3.2.1 =
+
+- Fix top menu's down arrow position for submenus.
+- Minor text and typo fixes.
 
 = 3.2.0 =
 
