@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi Extras
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 3.2.2
+Version: 3.3.0
 
 Author: Surbma
 Author URI: http://surbma.com/

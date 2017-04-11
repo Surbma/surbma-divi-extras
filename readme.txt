@@ -4,7 +4,7 @@ Donate link: https://surbma.com/donate/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
 Tested up to: 4.7
-Stable tag: 3.2.2
+Stable tag: 3.3.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,6 +16,7 @@ This plugin fixes and adds some useful modifications to the Divi Theme by Elegan
 
 **Surbma - Divi Extras plugin features:**
 - Featured menu style, as seen here in the menu: [Monarch plugin demo](http://elegantthemes.com/preview/Monarch/)
+- Class for vertically center the text in a module.
 - Logo width fix for mobile view. If you don't use the search function, the logo will be bigger, as it has more space in the header.
 - Removes ugly list icons in the footer.
 - Hide comment allowed tags block.
@@ -27,6 +28,10 @@ This plugin fixes and adds some useful modifications to the Divi Theme by Elegan
 If you want to have a menu item with a colored background, that really shines in your menu bar, just add the `featured-menu` class to your menu item. The best part of it is, that the background color will be the same, what you have set as the Accent Color in the Customizer. Wow!
 
 Once you install and activate the plugin, go to Appearance > Menu and expand the "Screen Options" drop down menu in the upper right corner. Select "CSS Classes" and finally, add `featured-menu` in the class field and you're good to go!
+
+**Vertical center**
+
+If you want to center your text vertically, you can use the `vertical-center` class for the column class. So you have to add it in the row settings. This class is tested with the text module. The class is using flex, so it will only work with modern browsers.
 
 = This plugin is a Divi extension =
 
@@ -73,6 +78,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 3.3.0 =
+
+- Added new class for vertically centered alignment. Now you can vertically center a text in a module with a simple class added to the column class: `vertical-center`
 
 = 3.2.2 =
 
