@@ -4,7 +4,7 @@ Donate link: https://surbma.com/donate/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 3.4.0
+Stable tag: 3.4.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,7 +31,7 @@ Once you install and activate the plugin, go to Appearance > Menu and expand the
 
 **Vertical center**
 
-If you want to center your text vertically, you can use the `vertical-center` class for the column class. So you have to add it in the row settings. This class is tested with the text module. The class is using flex, so it will only work with modern browsers.
+If you want to center your modules vertically in a column, you can use the `vertical-center` class for the column class. So you have to add it in the row settings. The class is using flex, so it will only work with modern browsers.
 
 = This plugin is a Divi extension =
 
@@ -78,6 +78,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 3.4.0 =
+
+- Fix for the vertical-center class.
 
 = 3.4.0 =
 
