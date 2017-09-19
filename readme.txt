@@ -79,7 +79,7 @@ It is the reverse version of my last name. ;)
 
 == Changelog ==
 
-= 3.4.0 =
+= 3.4.1 =
 
 - Fix for the vertical-center class.
 
