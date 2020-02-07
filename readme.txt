@@ -1,10 +1,11 @@
-=== Surbma - Divi Extras ===
-Contributors: Surbma
+=== Surbma | Divi Extras ===
+Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
-Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 4.0
+Requires at least: 5.1
+Tested up to: 5.3
+Stable tag: 5.0
+Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,7 +49,7 @@ Hide comment allowed tags block. It is automatically displayed by default, but t
 
 You have to buy the Divi Theme to use this plugin:
 
-- [Divi by Elegant Themes](http://surbma.com/go/elegantthemes/) (affiliate link)
+- [Divi by Elegant Themes](https://surbma.com/go/elegantthemes/) (affiliate link)
 
 **My plugins for Divi theme:**
 
@@ -74,7 +75,7 @@ Please feel free to contribute, help or recommend any new features for my plugin
 
 **Do you want to know more about me?**
 
-Visit my webpage: [Surbma.com](http://surbma.com/)
+Visit my webpage: [Surbma.com](https://surbma.com/)
 
 == Installation ==
 
@@ -89,6 +90,14 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 5.0 =
+
+Release date: 2020-01-08
+
+- FIX - Minor fixes in the code.
+- TWEAK - Tested with WordPress 5.3 version.
+- TWEAK - Updated to use a new way to deploy it to wp.org repo.
 
 = 4.0 - 2018-04-25 =
 

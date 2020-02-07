@@ -1,4 +1,4 @@
-Surbma - Divi extras
+Surbma | Divi extras
 ====================
 
 Useful modifications for the Divi Theme.
