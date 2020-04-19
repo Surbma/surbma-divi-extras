@@ -2,9 +2,9 @@
 Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
-Requires at least: 5.1
-Tested up to: 5.3
-Stable tag: 5.0
+Requires at least: 5.2
+Tested up to: 5.4
+Stable tag: 5.1
 Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -53,11 +53,11 @@ You have to buy the Divi Theme to use this plugin:
 
 **My plugins for Divi theme:**
 
-- [Surbma - Divi & Gravity Forms](https://wordpress.org/plugins/surbma-divi-gravity-forms/)
-- [Surbma - Divi Project Shortcodes](https://wordpress.org/plugins/surbma-divi-project-shortcodes/)
-- [Surbma - Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
-- [Surbma - Divi Remove Project CPT](https://wordpress.org/plugins/surbma-divi-remove-project-cpt/)
-- [Surbma - Divi Lightbox](https://wordpress.org/plugins/surbma-divi-lightbox/)
+- [Surbma | Divi & Gravity Forms](https://wordpress.org/plugins/surbma-divi-gravity-forms/)
+- [Surbma | Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
+- [Surbma | Divi Lightbox](https://wordpress.org/plugins/surbma-divi-lightbox/)
+- [Surbma | Divi Project Shortcodes](https://wordpress.org/plugins/surbma-divi-project-shortcodes/)
+- [Surbma | Divi Remove Project CPT](https://wordpress.org/plugins/surbma-divi-remove-project-cpt/)
 
 **My childthemes for Divi theme:**
 
@@ -80,7 +80,7 @@ Visit my webpage: [Surbma.com](https://surbma.com/)
 == Installation ==
 
 1. Upload the `surbma-divi-extras` folder to the `/wp-content/plugins/` directory.
-1. Activate the Surbma - Divi Extras plugin through the 'Plugins' menu in WordPress.
+1. Activate the Surbma | Divi Extras plugin through the 'Plugins' menu in WordPress.
 1. That's it.
 
 == Frequently Asked Questions ==
@@ -90,6 +90,12 @@ Visit my webpage: [Surbma.com](https://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 5.1 =
+
+Release date: 2020-04-19
+
+- FIX - Featured menu css fixes to prevent submenu modifications.
 
 = 5.0 =
 
