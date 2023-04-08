@@ -3,7 +3,7 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 5.2
-Tested up to: 5.8
+Tested up to: 6.2
 Stable tag: 5.1
 Requires PHP: 7.0
 License: GPLv2
